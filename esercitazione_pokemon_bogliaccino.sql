@@ -50,6 +50,15 @@ select * from pokemon_tipi;
 -- 26. Creare una classifica per tipo principale (Type 1) basata sulla media di attacco dei Pokémon di quel tipo
 -- 27. Creare un elenco con il numero di Pokémon per ciascuna combinazione di generazione e stato leggendario, ordinato per generazione e numero di Pokémon
 -- 28. Elencare tutti i Pokémon con il valore totale massimo per ogni combinazione di tipo principale (Type 1) e secondario (Type 2)
+
+select concat(`Type 1`, `Type 2`) as combinazione, max(total) as totale, count(*)
+from `pokemon`
+where `Type 2` != ''
+group by combinazione
+-- having totale =  780
+order by totale desc
+;
+
 -- 29. Mostrare i Pokémon con velocità superiore alla media della tabella
 -- 30. Elencare tutti i Pokémon con una velocità maggiore della media per il loro tipo principale (Type 1)
 
