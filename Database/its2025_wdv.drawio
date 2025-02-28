@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="4">
   <diagram name="Pagina-1" id="mkYEMQbaUZWj56wwv8hJ">
     <mxGraphModel dx="1687" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -325,6 +325,207 @@
         </mxCell>
         <mxCell id="D_m84uzjzg8dMNQfhoMg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="D_m84uzjzg8dMNQfhoMg-58" target="D_m84uzjzg8dMNQfhoMg-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CqZVOvXb6ua2aGNHYLCc" name="Pagina-3">
+    <mxGraphModel dx="1430" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bO_7eVXcaJlFEk5sCp_2-3" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="1030" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="bO_7eVXcaJlFEk5sCp_2-4" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="bO_7eVXcaJlFEk5sCp_2-3">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bO_7eVXcaJlFEk5sCp_2-5" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="bO_7eVXcaJlFEk5sCp_2-3">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bO_7eVXcaJlFEk5sCp_2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bO_7eVXcaJlFEk5sCp_2-3">
+          <mxGeometry x="100" y="150" width="860" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bO_7eVXcaJlFEk5sCp_2-6" value="div" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bO_7eVXcaJlFEk5sCp_2-3">
+          <mxGeometry x="180" y="180" width="130" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qwJhsBTiSdnWuIYiYI6c" name="Pagina-4">
+    <mxGraphModel dx="1435" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-14" target="PoxrmlGF16jCo9DBbmmP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-2" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-1" target="PoxrmlGF16jCo9DBbmmP-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="80" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-5" value="Scegli P, F, C" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-5" target="PoxrmlGF16jCo9DBbmmP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-7" value="SceltaUmano = P [FC]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-7" target="PoxrmlGF16jCo9DBbmmP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="250" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-8" value="SceltaPC = P [FC]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-8" target="PoxrmlGF16jCo9DBbmmP-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-11" target="PoxrmlGF16jCo9DBbmmP-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-11" target="PoxrmlGF16jCo9DBbmmP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-40" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PoxrmlGF16jCo9DBbmmP-18">
+          <mxGeometry x="-0.2308" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-11" value="SceltaUmano&lt;div&gt;==&lt;/div&gt;&lt;div&gt;SceltaPC&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="215" y="350" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-12" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="590" />
+              <mxPoint x="247" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-12" value="Result = &quot;Pareggio" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-11" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="470" as="sourcePoint" />
+            <mxPoint x="290" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-14" value="print Result" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-20" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-17" target="PoxrmlGF16jCo9DBbmmP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-22" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-17" target="PoxrmlGF16jCo9DBbmmP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-17" value="SceltaUmano&lt;div&gt;==&lt;/div&gt;&lt;div&gt;P&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;SceltaPC&lt;div&gt;==&lt;/div&gt;&lt;div&gt;F&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="315" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-21" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-21" value="Result = &quot;Umano&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="485" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-24" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-24" value="Result = &quot;PC&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-26" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="PoxrmlGF16jCo9DBbmmP-28" target="PoxrmlGF16jCo9DBbmmP-30" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-27" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="PoxrmlGF16jCo9DBbmmP-28" target="PoxrmlGF16jCo9DBbmmP-29" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-28" value="SceltaUmano&lt;div&gt;==&lt;/div&gt;&lt;div&gt;F&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;SceltaPC&lt;div&gt;==&lt;/div&gt;&lt;div&gt;C&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="160" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-29" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="490" />
+              <mxPoint x="315" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-29" value="Result = &quot;Umano&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="885" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="510" />
+              <mxPoint x="321" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-30" value="Result = &quot;PC&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-31" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="PoxrmlGF16jCo9DBbmmP-33" target="PoxrmlGF16jCo9DBbmmP-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-32" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="PoxrmlGF16jCo9DBbmmP-33" target="PoxrmlGF16jCo9DBbmmP-34" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-33" value="SceltaUmano&lt;div&gt;==&lt;/div&gt;&lt;div&gt;C&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;SceltaPC&lt;div&gt;==&lt;/div&gt;&lt;div&gt;P&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="500" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-34" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="690" />
+              <mxPoint x="290" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-34" value="Result = &quot;Umano&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="935" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoxrmlGF16jCo9DBbmmP-35" target="PoxrmlGF16jCo9DBbmmP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="720" />
+              <mxPoint x="300" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoxrmlGF16jCo9DBbmmP-35" value="Result = &quot;PC&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="655" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
