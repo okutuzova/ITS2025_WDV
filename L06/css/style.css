@@ -1,0 +1,33 @@
+
+
+div#header {
+    border: 1px solid black;
+}
+
+div#footer {
+    border: 1px solid black;
+}
+div#sidebar {
+    border: 0px solid black;
+    width: 25%;
+    
+}
+
+div#content {
+    border: 0px solid black;
+    width: 75%;
+    
+}
+
+#container-central {
+    display: flex;
+    border: 0px solid red;
+    width: 100%;
+    padding: 0 auto;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
