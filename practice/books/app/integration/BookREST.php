@@ -12,7 +12,7 @@ class BookREST {
     
     public function getAllBooks() {
         $books = $this->service->getAllBooks();
-        header('Content-Type: applization/json');
+        header('Content-Type: application/json');
         echo json_encode($books);
     }
 }
