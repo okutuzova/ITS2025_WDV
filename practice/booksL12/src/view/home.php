@@ -1,0 +1,2 @@
+<h1><?= TITOLO ?></h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias qui sint, deserunt quasi nostrum incidunt vero quaerat inventore? Unde doloremque repudiandae repellat odio, voluptatibus voluptatum fuga id quisquam nesciunt?</p>
