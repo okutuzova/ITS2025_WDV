@@ -1,0 +1,2 @@
+<h1>Hello Welcome to my Laravel Project</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil eligendi similique impedit, dolore obcaecati odio dignissimos vero deserunt earum error quidem consectetur minima magnam velit amet. Magni nisi quia sapiente libero. Aperiam delectus reprehenderit, repudiandae ducimus tenetur culpa modi deleniti!</p>
