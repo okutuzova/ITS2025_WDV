@@ -17,3 +17,4 @@ Route::get('/flags_quiz', [HomeController::class, 'flags_quiz'])->name('flags_qu
 
 
 Route::post('/quiz', [HomeController::class, 'checkAnswer'])->name('quiz');
+Route::post('/check-flag', [HomeController::class, 'checkFlag'])->name('flags.check');
