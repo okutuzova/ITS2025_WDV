@@ -3,65 +3,34 @@
 namespace App\Http\Controllers;
 
 use App\Models\Country;
+use App\Models\Score;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    
+    public function index(Request $request)
     {
+        $request->session()->forget('difficulty');
         return view('home');
     }
-    public function quiz()
+
+    // user name and start
+    public function start()
     {
-        // choose a random country
-        $correct = Country::inRandomOrder()->first();
-        // choose 2 random capitals
-        $wrongOptions = Country::where('alpha2Code', '!=', $correct->alpha2Code)
-            ->inRandomOrder()
-            ->limit(2)
-            ->pluck('capital');
-        
-        // join the correct capital with the wrong ones
-        $options = $wrongOptions->push($correct->capital);
-
-        // shuffle the options
-        $options = $options->shuffle();
-
-        return view('quiz', [
-            'country' => $correct->name,
-            'correctCapital' => $correct->capital,
-            'options' => $options,
-        ]);
-
+        return view('start');
     }
-
-    public function flags_quiz()
+    public function storeName(Request $request)
     {
-
-         // choose a random country
-         $correct = Country::inRandomOrder()->first();
-
-         // choose 2 random countries
-        $wrongOptions = Country::where('alpha2Code', '!=', $correct->alpha2Code)
-        ->inRandomOrder()
-        ->limit(2)
-        ->get();
-
-        // join the correct capital with the wrong ones
-        $options = $wrongOptions->push($correct)->shuffle();
-
-
-
-        return view('flags_quiz', [
-            'country' => $correct,
-            'correctFlag' => $correct->flag,
-            'options' => $options,
+        $request->validate([
+            'name' => 'required|string|max:255',
         ]);
-
-        // placeholder
-        // return view('flags_quiz');
+        session([
+            'player_name' => $request->input('name'),
+            'score' => 0, // initialize the score to 0
+        ]);
+        return redirect()->route('start');
     }
-
     public function training()
     {
         $country = Country::inRandomOrder()->first();
@@ -70,28 +39,21 @@ class HomeController extends Controller
         ]);
     }
 
-   
+    public function endGame(Request $request)
+{
+    $name = session('player_name');
+    $score = session('score');
 
-    // method to check the answer of a user and return the response
-    public function checkAnswer(Request $request)
-    {
-    
-        $userAnswer = $request->input('answer');
-        $correct = $request->input('correct');
-        $result = $userAnswer == $correct ? 'Correct!' : 'Incorrect! The correct answer is ' . $correct;
-
-        return view('quiz_result', [
-            'result' => $result
+    if ($name && $score !== null) {
+        Score::create([
+            'name' => $name,
+            'score' => $score,
         ]);
     }
 
-    public function checkFlag(Request $request)
-    {
-        $userAnswer = $request->input('answer');
-        $correct = $request->input('correct');
-        $result = $userAnswer == $correct? 'Correct!' : 'Incorrect! The correct answer is '. $correct;
-        return view('quiz_result', [
-           'result' => $result
-        ]);
-    }
+    $request->session()->flush();
+
+    return view('end', compact('name', 'score'));
+}
+
 }

@@ -3,21 +3,28 @@
 @section('title', 'Training')
 
 @section('content')
-<h1>Training Mode</h1>
+<div class="container">
+<h1 class="mb-4 text-center">Training Mode</h1>
 
-    <div style="padding-bottom: 10px;">
-        <h2>Country: {{ $country->name }}</h2>
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white"> 
+        <h4 class="mb-0">{{ $country->name }}</h4>
+        </div>
+        <div class="card-body"> 
         <p><strong>Capital:</strong> {{ $country->capital }}</p>
-        <p><strong>Population:</strong> {{ $country->population }}</p>
+        <p><strong>Population:</strong> {{ number_format($country->population) }}</p>
         <p><strong>Region:</strong> {{ $country->region }}</p>
+        <div class="mt-3"> 
         <p><strong>Flag:</strong></p>
-        <img src='/flags/{{ $country->alpha2Code }}.png' alt="Immagini Bandiera">
+        <img src='/flags/{{ $country->alpha2Code }}.png' alt="Flag of {{ $country->name }}" class="img-fluid border rounded" style="max-height: 200px;">
+    </div>
+    </div>
     </div>
 
-    <form method="GET" action="{{ route('training') }}">
-        <button type="submit">Next Country</button>
+    <form method="GET" action="{{ route('training') }}" class="text-center">
+        <button type="submit" class="btn btn-success">Next Country</button>
     </form>
+</div>
 
-    <br>
-    <a href="{{ route('home') }}">← Back to Home</a>
+    
 @endsection
